@@ -37,7 +37,7 @@ def load_epi(datafiles):
     xyz = np.array([])
 
     for df in datafiles:
-        print "Loading %s" % df
+        print("Loading %s" % df)
 
         # Load an EPI image
         img = nipy.load_image(df)
